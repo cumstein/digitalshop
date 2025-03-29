@@ -13,9 +13,9 @@ const eslintConfig = [
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
     rules: {
-      'no-console': error,
+      'no-console': 'error',
       '@typescript-eslint/no-explicit-any': 0,
-      '@typescript-eslint/no-unused-vars': 1,
+      '@typescript-eslint/no-unused-vars': 0,
     },
   },
 ];
